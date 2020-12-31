@@ -20,16 +20,14 @@ $fontHeadline: 'UtopiaBlack', sans-serif;
 $fontSize: 1.8rem;
 
 h1 {
-  margin: 100px 0 60px;
+  margin: 100px 0 0;
   font-family: $fontHeadline;
-  font-size: 6rem;
+  font-size: 9.6rem;
 }
 h2, h3, h4 {
   font-family: $fontSecondary;
 }
 h2 {
-  margin: 12px 0;
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
+  margin: 10px 0;
+  font-size: 6rem;
 }
