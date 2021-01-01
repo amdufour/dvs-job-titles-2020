@@ -57,7 +57,13 @@ function appendViz() {
         .attr('fill', d => d.color)
         .attr('transform', d => {
           return d.isFreelance ? `rotate(180, ${mainAxisX}, ${archMidHeight})` : null;
-        });
+        })
+        .on('mouseover', (event, d) => {
+          event.stopPropagation();
+          // Show the tooltip
+          handleMouseOver(event, d);
+        })
+        .on('mouseout', d => handleMouseOut(d));
 
       yPos = arch_y2;
     });
