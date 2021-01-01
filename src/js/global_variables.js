@@ -4,7 +4,6 @@
 const vizWidth = 315;
 const vizHeight = 2000;
 const mainAxisX = 10;
-const archCurve = 30;
 
 // Data-related variables
 const fields = [

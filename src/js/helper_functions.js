@@ -32,7 +32,7 @@ function mix(color_1, color_2, weight) {
   }
     
   return color; // PROFIT!
-};
+}
 
 // Populate arrays that will be used to create scales
 function getScaleInfo() {
