@@ -34,6 +34,7 @@ d3.csv('../data/data_job_titles.csv').then(data_original => {
     jobTitleInfo.job_title = d.job_title;
     jobTitleInfo.num_people = parseInt(d.num_people);
     group.sumPeople += jobTitleInfo.num_people;
+    jobTitleInfo.isFreelance = d.pos_freelance !== '' ? true : false;
   
     jobTitleInfo.fields = [];
     fields.forEach(field => {

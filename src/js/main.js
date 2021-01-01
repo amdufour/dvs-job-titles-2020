@@ -5,7 +5,7 @@ function appendViz() {
     .range([50, 200]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
-    .range([0, 200]);
+    .range([0, 140]);
   const titleNumPeopleScale = d3.scaleLinear()
     .domain([1, d3.max(numPeopleWithJobTitle)])
     .range([3, 20]);
@@ -33,7 +33,6 @@ function appendViz() {
 
   let yPos = 0;
   data.forEach(section => {
-    console.log(section);
     const arches_sct = arches.append('g')
       .attr('class', section.sct_id);
 
@@ -55,7 +54,10 @@ function appendViz() {
 
           return `M${mainAxisX},${yPos} C${archLength / 1.5 + mainAxisX},${((arch_y2 - yPos) / 10) + yPos} ${archLength - archThickness/2 + mainAxisX},${archMidHeight - archCurve} ${archLength - archThickness/2 + mainAxisX},${archMidHeight} C${archLength - archThickness/2 + mainAxisX},${archMidHeight + archCurve} ${archLength / 1.5 + mainAxisX},${(9 * (arch_y2 - yPos) / 10) + yPos} ${mainAxisX},${arch_y2} ${archLength / 1.4 + mainAxisX},${(9 * (arch_y2 - yPos) / 10) + yPos} ${archLength + archThickness/2 + mainAxisX},${archMidHeight + archCurve} ${archLength + archThickness/2 + mainAxisX},${archMidHeight} C${archLength + archThickness/2 + mainAxisX},${archMidHeight - archCurve} ${archLength / 1.4 + mainAxisX},${((arch_y2 - yPos) / 10) + yPos} ${mainAxisX},${yPos} Z`;
         })
-        .attr('fill', d => d.color);
+        .attr('fill', d => d.color)
+        .attr('transform', d => {
+          return d.isFreelance ? `rotate(180, ${mainAxisX}, ${archMidHeight})` : null;
+        });
 
       yPos = arch_y2;
     });
