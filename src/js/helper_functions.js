@@ -1,3 +1,4 @@
+// Mix colors
 function mixColors(jobTitleFields) {
   let colors = [];
   jobTitleFields.forEach(jobTitleField => {
@@ -32,3 +33,22 @@ function mix(color_1, color_2, weight) {
     
   return color; // PROFIT!
 };
+
+// Populate arrays that will be used to create scales
+function getScaleInfo() {
+  data.forEach(section => {
+    section.groups.forEach(group => {
+      // Populate array with sum of people in each group
+      groupsSumPeople.push(group.sumPeople);
+
+      group.titles.forEach(title => {
+        // Populate array with num of people with each job title
+        numPeopleWithJobTitle.push(title.num_people);
+        // Populate array with num of characters with each job title
+        numChar.push(title.num_char);
+      });
+    });
+  });
+
+  appendViz();
+}

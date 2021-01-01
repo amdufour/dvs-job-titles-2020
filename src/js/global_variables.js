@@ -1,4 +1,12 @@
 // Global variables
+
+// Layout
+const vizWidth = 315;
+const vizHeight = 2000;
+const mainAxisX = 10;
+const archCurve = 30;
+
+// Data-related variables
 const fields = [
   { field_id: 'field_ds', field_color: '#598235' },
   { field_id: 'field_it', field_color: '#355F30' },
@@ -15,3 +23,6 @@ const fields = [
   { field_id: 'field_unknown', field_color: '#F6F5F3' }
 ];
 
+const groupsSumPeople = [];
+const numChar = [];
+const numPeopleWithJobTitle = [];
