@@ -36,3 +36,13 @@ $dark1: #4A4138;
 $dark2: #5D5246;
 $dark3: #807160;
 $dark4: $brand;
+
+// Transitions
+@mixin easeSineOut {
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
+}
+@mixin easeSineIn {
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.12, 0, 0.39, 0);
+}

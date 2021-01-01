@@ -30,6 +30,7 @@ d3.csv('../data/data_job_titles.csv').then(data_original => {
     const group = section.groups.find(group => group.group_id === d.group);
     let jobTitleInfo = {};
 
+    jobTitleInfo.uid = d.uid;
     jobTitleInfo.num_char = parseInt(d.num_char);
     jobTitleInfo.job_title = d.job_title;
     jobTitleInfo.num_people = parseInt(d.num_people);

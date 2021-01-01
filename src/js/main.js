@@ -48,6 +48,7 @@ function appendViz() {
       arches_group.selectAll('path')
         .data(group.titles)
         .join('path')
+        .attr('class', d => `arch arch-${d.uid}`)
         .attr('d', d => {
           const archLength = Math.ceil(numCharScale(d.num_char));
           const archThickness = Math.ceil(titleNumPeopleScale(d.num_people));
