@@ -22,7 +22,7 @@ function handleMouseOver(event, d) {
 }
 
 // Mouse leaves arch
-function handleMouseOut(d) {
+function handleMouseOut() {
   // Hide tooltip
   d3.select('.tooltip')
     .style('top', '-100vh')
@@ -34,3 +34,11 @@ function handleMouseOut(d) {
     .classed('down', false )
     .classed('highlighted', false);
 }
+
+// Hide tooltip when user clicks elsewhere on the screen
+document.addEventListener('click', (e) => {
+  const closestGroup = e.target.closest('g');
+  if (closestGroup === null) {
+    handleMouseOut();
+  }
+});
