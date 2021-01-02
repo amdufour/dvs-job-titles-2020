@@ -2,6 +2,11 @@
 let data = [];
 const sections = [
   { sct_id: 'data_science_sct', groups: ['data_specialist', 'bi', 'analyst', 'analytics', 'librarian', 'geo', 'dataviz'] },
+  { sct_id: 'it_sct', groups: ['dev', 'it', 'eng', 'scientist'] },
+  { sct_id: 'design_comm_sct', groups: ['artist', 'designer', 'journalist', 'writer', 'social_public', 'comm_marketing'] },
+  { sct_id: 'business_sct', groups: ['finance_economy', 'business_dev_op', 'merl'] },
+  { sct_id: 'learning_sct', groups: ['support', 'student', 'teacher', 'research', 'postdoc'] },
+  { sct_id: 'unknown_sct', groups: ['freelance_consultant', 'manager', 'head', 'dir', 'unemployed', 'another'] }
 ];
 
 sections.forEach(sct => {

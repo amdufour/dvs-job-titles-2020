@@ -6,7 +6,7 @@
       transition-property: opacity;
       @include easeSineIn;
       &.down {
-        opacity: 0.2;
+        opacity: 0.1;
         @include easeSineOut;
       }
       &.highlighted {

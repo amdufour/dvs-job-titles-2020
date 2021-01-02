@@ -19,7 +19,10 @@ const fields = [
   { field_id: 'field_student', field_color: '#C88304' },
   { field_id: 'field_teacher', field_color: '#FAA80F' },
   { field_id: 'field_research', field_color: '#FCC55F' },
-  { field_id: 'field_unknown', field_color: '#F6F5F3' }
+  { field_id: 'field_unknown_free', field_color: '#F6F5F3' },
+  { field_id: 'field_unknown_manager', field_color: '#E5E0DC' },
+  { field_id: 'field_unknown_head', field_color: '#CBC1B9' },
+  { field_id: 'field_unknown_another', field_color: '#BAADA1' }
 ];
 
 const groupsSumPeople = [];
