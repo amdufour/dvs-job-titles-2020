@@ -8,7 +8,7 @@ function appendViz() {
     .range([0, 140]);
   const titleNumPeopleScale = d3.scaleLinear()
     .domain([1, d3.max(numPeopleWithJobTitle)])
-    .range([3, 20]);
+    .range([2, 20]);
 
   // Append SVG
   const titlesViz = d3.select('#titles-viz').append('svg')
@@ -28,7 +28,7 @@ function appendViz() {
   // Append arches
   const arches = titlesViz.append('g')
     .attr('class', 'arches')
-    .attr('fill-opacity', 0.35)
+    .attr('fill-opacity', 0.4)
     .attr('stroke', 'none');
 
   let yPos = 0;
@@ -45,6 +45,7 @@ function appendViz() {
       const archMidHeight = (archHeight / 2) + yPos;
       const archCurve = archHeight / 4;
       
+      // Append arches
       arches_group.selectAll('path')
         .data(group.titles)
         .join('path')
@@ -66,6 +67,14 @@ function appendViz() {
         })
         .on('mouseout', d => handleMouseOut(d));
 
+        // Append group label
+        const group_label = arches_group.append('text')
+          .attr('x', mainAxisX)
+          .attr('y', archMidHeight)
+          .attr('fill-opacity', 1)
+          .attr('font-size', '1.3rem')
+          .text(group.group_label);
+
       yPos = arch_y2;
     });
     yPos += 50;
@@ -74,4 +83,4 @@ function appendViz() {
   vizHeight = yPos;
 }
 
-
+getScaleInfo();

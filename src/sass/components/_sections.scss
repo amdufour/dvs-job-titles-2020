@@ -1,0 +1,17 @@
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.content {
+  max-height: 100vh;
+  background-image: url(../assets/bg_Intro_Col.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+}
