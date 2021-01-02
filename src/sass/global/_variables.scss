@@ -10,16 +10,33 @@ $container: $xl;
 $text: #3D342B;
 $brand: #998675;
 $paper: #E2C9A9;
+$bg-desktop: #BFB19E;
 
 $light1: #F6F5F3;
-$light2: #E5E0DC;
+$light2: #DCD6D0;
 $light3: #CBC1B9;
-$light4: #BAADA1;
 
 $dark1: #4A4138;
-$dark2: #5D5246;
-$dark3: #807160;
+$dark2: #998675;
+$dark3: #BAADA1;
 $dark4: $brand;
+
+// Tones
+$redDark: #903227;
+$redMedium: #C55344;
+$redPale: #DB8A80;
+
+$greenDark: #355F30;
+$greenMedium: #598235;
+$greenPale: #95AD5C;
+
+$yellowDark: #C88304;
+$yellowMedium: #FAA80F;
+$yellowPale: #FCC55F;
+
+$blueDark: #295266;
+$blueMedium: #407FA0;
+$bluePale: #6DA8C5;
 
 // Transitions
 @mixin easeSineOut {
