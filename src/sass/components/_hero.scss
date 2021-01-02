@@ -7,6 +7,10 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  @media (min-width: 577px) {
+    width: 375px;
+    height: 812px;
+  }
 
   // Top section
   .top-section {
@@ -25,6 +29,10 @@
     background-repeat: no-repeat;
     background-size: 223px 243px;
     background-position: calc(50vw - 51px) center;
+    @media (min-width: 577px) {
+      width: 375px;
+      background-position: 135px center;
+    }
   }
 
   // Title

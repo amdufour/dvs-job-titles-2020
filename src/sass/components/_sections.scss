@@ -2,6 +2,13 @@
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  @media (min-width: 577px) {
+    margin: 60px auto;
+    width: 375px;
+    height: 812px;
+    border: 2px solid $text;
+    border-radius: 48px;
+  }
 }
 .section {
   height: 100vh;
