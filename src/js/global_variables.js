@@ -2,7 +2,7 @@
 
 // Layout
 const vizWidth = 300;
-const vizHeight = 2000;
+let vizHeight = 3000;
 const mainAxisX = 150;
 
 // Data-related variables

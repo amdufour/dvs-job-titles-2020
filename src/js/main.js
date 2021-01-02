@@ -70,6 +70,8 @@ function appendViz() {
     });
     yPos += 50;
   });
+
+  vizHeight = yPos;
 }
 
 
