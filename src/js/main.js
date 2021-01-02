@@ -2,7 +2,7 @@ function appendViz() {
   // Scales
   const groupSumPeopleScale = d3.scaleLinear()
     .domain([0, d3.max(groupsSumPeople)])
-    .range([50, 200]);
+    .range([30, 200]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
     .range([0, 140]);
