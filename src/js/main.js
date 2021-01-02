@@ -15,16 +15,6 @@ function appendViz() {
     .attr('width', vizWidth)
     .attr('height', vizHeight);
   
-  // Append main axis
-  const mainAxis = titlesViz.append('g')
-    .attr('class', 'main-axis-wrapper')
-    .append('line')
-      .attr('x1', mainAxisX)
-      .attr('y1', 0)
-      .attr('x2', mainAxisX)
-      .attr('y2', vizHeight)
-      .attr('stroke', 'black');
-  
   // Append arches
   const arches = titlesViz.append('g')
     .attr('class', 'arches')
@@ -80,7 +70,8 @@ function appendViz() {
     yPos += 50;
   });
 
-  vizHeight = yPos;
+  // Update SVG height based on content
+  titlesViz.attr('height', yPos);
 }
 
 getScaleInfo();
