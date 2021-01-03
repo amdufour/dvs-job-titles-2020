@@ -26,6 +26,10 @@
         display: inline-block;
         vertical-align: middle;
       }
+      .legend-label.down {
+        position: relative;
+        top: 2px;
+      }
       .pastille {
         margin-left: -20px;
         margin-right: 10px;
