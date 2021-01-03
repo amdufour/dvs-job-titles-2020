@@ -5,7 +5,7 @@ function appendViz() {
     .range([30, 400]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
-    .range([0, 140]);
+    .range([0, 160]);
   const titleNumPeopleScale = d3.scaleLinear()
     .domain([1, d3.max(numPeopleWithJobTitle)])
     .range([2, 20]);

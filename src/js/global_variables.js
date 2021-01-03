@@ -1,9 +1,9 @@
 // Global variables
 
 // Layout
-const vizWidth = 300;
+const vizWidth = 340;
 let vizHeight = 3000;
-const mainAxisX = 150;
+const mainAxisX = 170;
 
 // Data-related variables
 const fields = [
