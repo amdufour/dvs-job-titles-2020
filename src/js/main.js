@@ -2,7 +2,7 @@ function appendViz() {
   // Scales
   const groupSumPeopleScale = d3.scaleLinear()
     .domain([0, d3.max(groupsSumPeople)])
-    .range([30, 400]);
+    .range([30, 300]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
     .range([0, 160]);
@@ -18,7 +18,7 @@ function appendViz() {
   // Append arches
   const arches = titlesViz.append('g')
     .attr('class', 'arches')
-    .attr('fill-opacity', 0.6)
+    .attr('fill-opacity', 0.62)
     .attr('stroke', 'none');
 
   let yPos = 0;
