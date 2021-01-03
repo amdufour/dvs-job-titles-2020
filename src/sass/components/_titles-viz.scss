@@ -68,4 +68,17 @@
       }
     }
   }
+
+  // Group labels
+  .group-label-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    .group-label {
+      text-align: right;
+    }
+  }
 }
