@@ -4,15 +4,6 @@ const sections = [
   { 
     sct_id: 'it_sct', 
     groups: [
-      {group_id: 'dev', group_label: 'Developers'},
-      {group_id: 'it', group_label: 'IT Specialists'},
-      {group_id: 'eng', group_label: 'Engineers'},
-      {group_id: 'scientist', group_label: 'Scientists'},
-    ]
-  },
-  { 
-    sct_id: 'data_science_sct', 
-    groups: [
       {group_id: 'data_specialist', group_label: 'Data Scientists'},
       {group_id: 'bi', group_label: 'Business Intelligence'},
       {group_id: 'analyst', group_label: 'Analysts'},
@@ -20,6 +11,10 @@ const sections = [
       {group_id: 'librarian', group_label: 'Librarians'},
       {group_id: 'geo', group_label: 'Geographic & Geospatial'},
       {group_id: 'dataviz', group_label: 'Data Visualization Specialists'},
+      {group_id: 'dev', group_label: 'Developers'},
+      {group_id: 'it', group_label: 'IT Specialists'},
+      {group_id: 'eng', group_label: 'Engineers'},
+      {group_id: 'scientist', group_label: 'Scientists'},
     ]
   },
   { 
