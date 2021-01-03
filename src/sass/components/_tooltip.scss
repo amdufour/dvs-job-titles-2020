@@ -3,12 +3,21 @@
   top: -100vh;
   left: -1000vw;
   padding: 6px 10px 5px;
-  background-color: $light1;
-  border: 1px solid $brand;
-  border-radius: 3px;
-  font-size: 1.5rem;
-  line-height: 1;
+  background-color: rgba($bg2, 0.68);
+  border-radius: 6px;
+  font-size: 1.4rem;
+  line-height: 1.2;
   opacity: 0;
+  // svg {
+  //   position: absolute;
+  //   z-index: 1;
+  //   width: 100%;
+  //   height: 100%;
+  //   fill: rgba($bg2, 0.68);
+  // }
+  .job-title {
+    text-transform: capitalize;
+  }
   &.visible {
     opacity: 1;
   }
