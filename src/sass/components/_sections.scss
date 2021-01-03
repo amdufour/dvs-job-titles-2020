@@ -1,7 +1,9 @@
 .scroll-container {
   height: 100vh;
+  overflow-x: hidden;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  background-color: #fff;
   @media (min-width: 577px) {
     margin: 60px auto;
     width: 375px;
