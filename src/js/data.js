@@ -1,6 +1,9 @@
 const data = [
   {
     "sct_id": "it_sct",
+    "sct_label": "The green family",
+    "sctSumPeople": 739,
+    "sctSumLeaders": 163,
     "groups": [
       {
         "group_id": "data_specialist",
@@ -2126,8 +2129,8 @@ const data = [
           }
         ],
         "sumSeniors": 22,
-        "sumLeaders": null,
-        "sumFreelancers": null
+        "sumLeaders": 13,
+        "sumFreelancers": 1
       },
       {
         "group_id": "analytics",
@@ -4843,6 +4846,9 @@ const data = [
   },
   {
     "sct_id": "design_comm_sct",
+    "sct_label": "The red family",
+    "sctSumPeople": 261,
+    "sctSumLeaders": 48,
     "groups": [
       {
         "group_id": "journalist",
@@ -6859,6 +6865,9 @@ const data = [
   },
   {
     "sct_id": "business_sct",
+    "sct_label": "The blue family",
+    "sctSumPeople": 83,
+    "sctSumLeaders": 35,
     "groups": [
       {
         "group_id": "business_dev_op",
@@ -7744,6 +7753,9 @@ const data = [
   },
   {
     "sct_id": "learning_sct",
+    "sct_label": "The orange family",
+    "sctSumPeople": 265,
+    "sctSumLeaders": 42,
     "groups": [
       {
         "group_id": "teacher",
@@ -9408,6 +9420,9 @@ const data = [
   },
   {
     "sct_id": "unknown_sct",
+    "sct_label": "The almond family",
+    "sctSumPeople": 174,
+    "sctSumLeaders": 115,
     "groups": [
       {
         "group_id": "freelance_consultant",
@@ -10185,12 +10200,7 @@ const data = [
         "sumSeniors": 0,
         "sumLeaders": 28,
         "sumFreelancers": 0
-      }
-    ]
-  },
-  {
-    "sct_id": "another_sct",
-    "groups": [
+      },
       {
         "group_id": "unemployed",
         "group_label": "Unemployed",

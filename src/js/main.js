@@ -1,7 +1,7 @@
 function appendViz() {
   // Scales
   const groupSumPeopleScale = d3.scaleLinear()
-    .domain([0, d3.max(groupsSumPeople)])
+    .domain([d3.min(groupsSumPeople), d3.max(groupsSumPeople)])
     .range([30, 300]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
@@ -25,6 +25,27 @@ function appendViz() {
   data.forEach(section => {
     const arches_sct = arches.append('g')
       .attr('class', section.sct_id);
+
+    // Append family description and info
+    const sct_description_wrapper = arches_sct.append('foreignObject')
+      .attr('class', 'family-description-wrapper')
+      .attr('x', 0)
+      .attr('y', yPos)
+      .attr('width', vizWidth)
+      .attr('height', 215);
+    const sct_description = sct_description_wrapper.append('xhtml:div').append('div')
+      .attr('class', `family-description family-description--${section.sct_id}`);
+    sct_description.append('h3')
+      .attr('class', 'sct-label')
+      .html(`${section.sct_label}:`);
+    sct_description.append('div')
+      .attr('class', 'stats-people')
+      .html(`${section.groups.length} groups, ${section.sctSumPeople} people`);
+    sct_description.append('div')
+      .attr('class', 'stats-leaders')
+      .html(`${section.sctSumLeaders} in leadership position`);
+
+    yPos += 215;
 
     section.groups.forEach(group => {
       const arches_group = arches_sct.append('g')
@@ -67,8 +88,6 @@ function appendViz() {
 
       yPos = arch_y2;
     });
-
-    yPos += 100;
   });
 
   // Update SVG height based on content
