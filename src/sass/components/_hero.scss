@@ -1,13 +1,14 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  min-height: 568px;
   padding: 35px 0;
   background-image: url(../assets/bg_Start_Col.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  @media (min-width: 577px) {
+  @media (min-width: 849px) {
     width: 375px;
     height: 812px;
   }
@@ -29,7 +30,7 @@
     background-repeat: no-repeat;
     background-size: 223px 243px;
     background-position: calc(50vw - 51px) center;
-    @media (min-width: 577px) {
+    @media (min-width: 849px) {
       width: 375px;
       background-position: 135px center;
     }
