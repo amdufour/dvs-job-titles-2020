@@ -82,9 +82,6 @@ $xlGrid: $xl - 1 + $gap;
 //OFFSET
 @for $i from 1 through 12 {
   @media (min-width: $smGrid) {
-    .offset-sm-#{$i} {
-      margin-left: 100%/12*$i;
-    }
   }
 }
 @for $i from 1 through 12 {

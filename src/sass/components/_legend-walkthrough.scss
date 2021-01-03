@@ -1,0 +1,23 @@
+.walkthrough {
+  margin-top: 5px;
+  padding-bottom: 65px;
+  background-image: url(../assets/star.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 22px 22px;
+  .walk-section {
+    max-width: 250px;
+    margin: 30px auto 0;
+    padding: 12px 35px 0;
+    font-size: 2rem;
+    .walk-illustration {
+      display: block;
+      margin: 10px auto 0;
+    }
+    &:last-of-type {
+      .walk-illustration {
+        margin-left: -50px;
+      }
+    }
+  }
+}

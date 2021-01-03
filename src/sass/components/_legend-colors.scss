@@ -60,13 +60,17 @@
 
   // Legend description
   .legend-description {
-    padding-top: 16px;
-    padding-left: 32px;
+    padding-top: 12px;
+    padding-left: 35px;
     padding-right: $gutter;
     font-size: 20px;
-    background-image: url(../assets/deco-left.svg);
-    background-repeat: no-repeat;
-    background-size: 25px 48px;
-    background-position: 0 0;
   }
+}
+
+// Left decoration
+.deco-left {
+  background-image: url(../assets/deco-left.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 48px;
+  background-position: 0 0;
 }
