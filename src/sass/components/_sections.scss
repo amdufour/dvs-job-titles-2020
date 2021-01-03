@@ -1,6 +1,5 @@
 .scroll-container {
   width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -20,7 +19,6 @@
 .content {
   margin-top: -1px;
   width: 100vw;
-  max-height: 100vh;
   background-image: url(../assets/bg_Intro_Col.png);
   background-repeat: no-repeat;
   background-size: cover;

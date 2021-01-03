@@ -1,0 +1,36 @@
+.disclaimer {
+  position: relative;
+  padding-top: 50px;
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    right: 0;
+    height: 122px;
+    background-image: url(../assets/t-transparent.png);
+    background-repeat: no-repeat;
+    background-size: 92px 122px;
+    background-position: center top;
+  }
+  h2 {
+    position: relative;
+    z-index: 2;
+    margin: 0 0 70px;
+    text-align: center;
+  }
+  .disclaimer-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 2rem;
+    li {
+      padding: 30px 0 20px;
+      background-image: url(../assets/arrow-down.svg);
+      background-repeat: no-repeat;
+      background-size: 35px 21px;
+      background-position: 0 0;
+    }
+  }
+}
