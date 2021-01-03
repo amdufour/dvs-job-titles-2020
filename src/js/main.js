@@ -68,19 +68,6 @@ function appendViz() {
       yPos = arch_y2;
     });
 
-    if (section.sct_id !== 'another_sct') {
-      // Append connector
-      arches_sct.append('line')
-        .attr('class', 'sections-connector')
-        .attr('x1', mainAxisX)
-        .attr('y1', yPos)
-        .attr('x2', mainAxisX)
-        .attr('y2', yPos + 100)
-        .attr('stroke', '#3D342B')
-        .attr('stroke-width', 1)
-        .attr('stroke-opacity', 0.5);
-    }
-
     yPos += 100;
   });
 
