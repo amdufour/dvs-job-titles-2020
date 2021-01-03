@@ -11,16 +11,17 @@
   .contact {
     a {
       display: block;
-      &.link-green {
-        color: $greenMedium;
-      }
-      &.link-red {
-        color: $redMedium;
+      margin: 10px 0;
+      font-size: 18px;
+      color: $text;
+      text-decoration: none;
+      &:hover, &:focus {
+        text-decoration: underline;
       }
     }
   }
   .thank-you {
-    margin-top: 100px;
+    margin-top: 90px;
     padding-top: 35px;
     background-image: url(../assets/hearth.svg);
     background-repeat: no-repeat;
