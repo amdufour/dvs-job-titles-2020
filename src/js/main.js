@@ -32,7 +32,7 @@ function appendViz() {
       .attr('x', 0)
       .attr('y', yPos)
       .attr('width', vizWidth)
-      .attr('height', 217);
+      .attr('height', 225);
     const sct_description = sct_description_wrapper.append('xhtml:div').append('div')
       .attr('class', `family-description family-description--${section.sct_id}`);
     sct_description.append('h3')
@@ -45,7 +45,7 @@ function appendViz() {
       .attr('class', 'stats-leaders')
       .html(`${section.sctSumLeaders} in leadership position`);
 
-    yPos += 217;
+    yPos += 225;
 
     section.groups.forEach(group => {
       const arches_group = arches_sct.append('g')
