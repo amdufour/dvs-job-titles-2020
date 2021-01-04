@@ -1,5 +1,5 @@
 # Data Visualization Society - Census 2020
-## A collaboration between [Inbal Rief](https://www.inbal-rief.com/) & [Anne-Marie Dufour](https://www.delightfuldata.art/)
+## A collaboration between [Inbal Rief](https://twitter.com/balcooly) & [Anne-Marie Dufour](https://www.delightfuldata.art/)
 
 A mobile-first visualization of the Job titles of the members of the Data Visualization Society. Built with D3.js.
 
