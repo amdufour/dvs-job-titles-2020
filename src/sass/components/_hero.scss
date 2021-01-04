@@ -15,10 +15,11 @@
 
   // Top section
   .top-section {
-    font-family: $fontDisplay;
+    font-family: $fontCapt;
     font-size: 1.4rem;
     line-height: 1.6;
     text-transform: uppercase;
+    color: $text2;
   }
 
   // Logo
@@ -39,6 +40,7 @@
   // Title
   .subtitle {
     margin: 5px 0;
+    color: $text2;
   }
 
   @media (min-width: $md) and (orientation: portrait) {
