@@ -9,6 +9,7 @@
     font-size: 3.4rem;
     text-transform: uppercase;
     text-align: center;
+    color: $text3;
   }
 
   // Family description
@@ -25,6 +26,7 @@
       background-repeat: no-repeat;
       background-size: 58px 55px;
       background-position: center top;
+      font-size: 1.6rem;
     }
     &.family-description--it_sct { 
       background-image: url(../assets/crown_fin_green.svg);
@@ -45,6 +47,10 @@
     &.family-description--unknown_sct { 
       background-image: url(../assets/crown_fin_almond.svg);
       h3 { background-image: url(../assets/crown_almond.svg); }
+    }
+    .stats-people,
+    .stats-leaders {
+      font-family: $fontCapt;
     }
   }
 
