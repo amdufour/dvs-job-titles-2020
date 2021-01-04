@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="156"><defs><path id="a" d="M.647.302h20.706v9.059H.647z"/><path id="c" d="M.647.302h20.706v9.059H.647z"/></defs><g fill="none" fill-rule="evenodd"><g stroke="#807160" stroke-dasharray="3" opacity=".68"><path d="M170 80.5C170 42.75 92.455 20.1 8 5M170 80c0 37.75-77.545 60.4-162 75.5M10 80.5C10 42.75 8.085 20.1 6 5M10 80c0 37.75-1.915 60.4-4 75.5"/></g><path stroke="#5D5246" stroke-linecap="round" stroke-width="2.2" d="M9.5 79.5h160"/><g transform="rotate(-90 45.867 44.81)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path fill="#807160" d="M10.937 6.832C9.849-2.514.647.917.647.917s6.9-.541 10.077 7.219a.633.633 0 00-.472.593c-.004.345.29.628.657.632.367.004.666-.274.67-.62a.632.632 0 00-.459-.601C14.466.443 21.353 1.119 21.353 1.119s-9.125-3.61-10.416 5.713" mask="url(#b)"/></g><g transform="matrix(0 -1 -1 0 178.409 90.676)"><mask id="d" fill="#fff"><use xlink:href="#c"/></mask><path fill="#807160" d="M10.937 6.832C9.849-2.514.647.917.647.917s6.9-.541 10.077 7.219a.633.633 0 00-.472.593c-.004.345.29.628.657.632.367.004.666-.274.67-.62a.632.632 0 00-.459-.601C14.466.443 21.353 1.119 21.353 1.119s-9.125-3.61-10.416 5.713" mask="url(#d)"/></g><text fill="#3D342B" font-family="UtopiaStd-Regular, Utopia Std" font-size="22"><tspan x="156" y="107">82</tspan></text><text fill="#3D342B" font-family="UtopiaStd-Regular, Utopia Std" font-size="22"><tspan x=".7" y="101.992">1</tspan></text><text fill="#3D342B" font-family="UtopiaStd-Regular, Utopia Std" font-size="16"><tspan x="53.236" y="12">‘JOB TITLE </tspan> <tspan x="39.548" y="35.2">CHARACTERS’ </tspan> <tspan x="67.796" y="58.4">SCALE </tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="156" viewBox="0 0 180 156">
+  <defs>
+    <polygon id="scale_char-a" points=".647 .302 21.353 .302 21.353 9.361 .647 9.361"/>
+    <polygon id="scale_char-c" points=".647 .302 21.353 .302 21.353 9.361 .647 9.361"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#807160" stroke-dasharray="3" opacity=".68" transform="translate(6 5)">
+      <path d="M164,75.5 C164,37.75 86.45465,15.1 2,0"/>
+      <path d="M164,150.5 C164,112.75 86.45465,90.1 2,75" transform="matrix(1 0 0 -1 0 225.5)"/>
+      <path d="M4,75.5 C4,37.75 2.0853,15.1 0,0"/>
+      <path d="M4,150.5 C4,112.75 2.0853,90.1 0,75" transform="matrix(1 0 0 -1 0 225.5)"/>
+    </g>
+    <g transform="translate(.233 68.5)">
+      <line x1="9.267" x2="169.267" y1="11" y2="11" stroke="#5D5246" stroke-linecap="round" stroke-width="2.2"/>
+      <g transform="rotate(-90 11.5 10.676)">
+        <mask id="scale_char-b" fill="#fff">
+          <use xlink:href="#scale_char-a"/>
+        </mask>
+        <path fill="#231F20" d="M10.9368342,6.83234487 C9.84913332,-2.51435311 0.647058824,0.917044552 0.647058824,0.917044552 C0.647058824,0.917044552 7.54670584,0.375899268 10.7244306,8.13580486 C10.4544142,8.2123635 10.2551991,8.44858291 10.2524226,8.72864358 C10.2482578,9.074139 10.5425687,9.35747142 10.909069,9.36078431 C11.2755694,9.36466924 11.5754333,9.08722595 11.5795981,8.74173053 C11.5823746,8.46101551 11.3887125,8.22217871 11.1200844,8.13973094 C14.4664826,0.443297048 21.3529412,1.11858355 21.3529412,1.11858355 C21.3529412,1.11858355 12.227915,-2.49145095 10.9368342,6.83234487" mask="url(#scale_char-b)"/>
+      </g>
+      <g transform="matrix(0 -1 -1 0 178.176 22.176)">
+        <mask id="scale_char-d" fill="#fff">
+          <use xlink:href="#scale_char-c"/>
+        </mask>
+        <path fill="#231F20" d="M10.9368342,6.83234487 C9.84913332,-2.51435311 0.647058824,0.917044552 0.647058824,0.917044552 C0.647058824,0.917044552 7.54670584,0.375899268 10.7244306,8.13580486 C10.4544142,8.2123635 10.2551991,8.44858291 10.2524226,8.72864358 C10.2482578,9.074139 10.5425687,9.35747142 10.909069,9.36078431 C11.2755694,9.36466924 11.5754333,9.08722595 11.5795981,8.74173053 C11.5823746,8.46101551 11.3887125,8.22217871 11.1200844,8.13973094 C14.4664826,0.443297048 21.3529412,1.11858355 21.3529412,1.11858355 C21.3529412,1.11858355 12.227915,-2.49145095 10.9368342,6.83234487" mask="url(#scale_char-d)"/>
+      </g>
+    </g>
+    <text fill="#3D342B" font-family="UtopiaStd-Regular, Utopia Std" font-size="22">
+      <tspan x="156" y="107">82</tspan>
+    </text>
+    <text fill="#3D342B" font-family="UtopiaStd-Regular, Utopia Std" font-size="22">
+      <tspan x=".7" y="101.992">1</tspan>
+    </text>
+    <text fill="#3D342B" font-family="UtopiaStd-Capt, Utopia Std" font-size="16">
+      <tspan x="52.58" y="12">‘JOB TITLE </tspan> <tspan x="39.116" y="35.2">CHARACTERS’ </tspan> <tspan x="67.676" y="58.4">SCALE </tspan>
+    </text>
+  </g>
+</svg>
