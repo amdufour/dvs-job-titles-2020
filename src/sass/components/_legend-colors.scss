@@ -36,6 +36,9 @@
         width: 40px;
         height: 40px;
         border-radius: 50px;
+        @media (max-width: 330px) {
+          margin-right: 8px;
+        }
       }
       &.color-it .pastille { background-color: $greenDark }
       &.color-ds .pastille { background-color: $greenMedium }
