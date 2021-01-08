@@ -12,6 +12,22 @@
     width: 375px;
     height: 812px;
   }
+  @media (min-height: 700px) {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 49px;
+      height: 60px;
+      background-image: url(../assets/scroll_arrow.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
 
   // Top section
   .top-section {
