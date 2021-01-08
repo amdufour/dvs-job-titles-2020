@@ -19,6 +19,13 @@ body{
   line-height: 1.45;
   color: $text;
   fill: $text;
+  @media (min-width: 849px) {
+    padding: 40px 0;
+    background-image: url(../assets/spiderman_desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 input,
