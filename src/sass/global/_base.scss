@@ -21,6 +21,7 @@ body{
   fill: $text;
   @media (min-width: 849px) {
     padding: 40px 0;
+    height: 100vh;
     // Credit Photo by Life of Wu from https://www.pexels.com
     background-image: url(../assets/spiderman_desktop.jpg);
     background-repeat: no-repeat;

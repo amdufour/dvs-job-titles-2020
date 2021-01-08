@@ -26,6 +26,17 @@
     border-radius: 52px;
   }
 }
+@media (min-width: 849px) and (min-height: 470px) {
+  .scroll-container {
+    position: absolute;
+    left: 50%;
+  }
+  .double-container,
+  .scroll-container {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 .content {
   margin-top: -1px;
   padding-top: 60px;
